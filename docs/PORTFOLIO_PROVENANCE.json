@@ -1,0 +1,12 @@
+{
+  "source_notebook_sha256": "4e7cd1ff0c06b3a6e60dfc154d19666c2e046015636bca34c9f1a44d0779ab4c",
+  "source_project": "Existing local StrokeLens coursework extension",
+  "changes": [
+    "Standalone package",
+    "Bilingual notebook narrative",
+    "Portable data paths",
+    "Schema summary replaces raw-row preview",
+    "Raw CSV and source documents excluded"
+  ],
+  "code_changes": "Only data loading/root resolution and raw-preview removal; modelling policy preserved."
+}

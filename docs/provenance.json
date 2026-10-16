@@ -1,0 +1,17 @@
+{
+  "publisher": "fedesoriano",
+  "source": "https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/fedesoriano/stroke-prediction-dataset?datasetVersionNumber=1",
+  "version": 1,
+  "release": "2021-01-26",
+  "license_label": "Data files © Original Authors",
+  "terms": "Use only for educational purposes; credit the author.",
+  "sha256": "644d473b05d2797006bd94865e4f8bb057f0c721617911613c82c8fcfc707420",
+  "bytes": 316971,
+  "conversion": "None. Original CSV bytes extracted from official ZIP.",
+  "units": {
+    "age": "years",
+    "bmi": "kg/m²",
+    "avg_glucose_level": "source numeric units; mg/dL convention assumed, not confirmed in source dictionary"
+  }
+}
