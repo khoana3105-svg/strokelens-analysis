@@ -1,0 +1,178 @@
+{
+  "rows": 5110,
+  "positive": 249,
+  "prevalence": 0.0487279843444227,
+  "missing": {
+    "age": 0,
+    "hypertension": 0,
+    "heart_disease": 0,
+    "avg_glucose_level": 0,
+    "bmi": 201,
+    "gender": 0,
+    "ever_married": 0,
+    "work_type": 0,
+    "Residence_type": 0,
+    "smoking_status": 0
+  },
+  "duplicates": 0,
+  "duplicate_ids": 0,
+  "numeric": {
+    "age": {
+      "min": 0.08,
+      "max": 82.0,
+      "mean": 43.226614481409
+    },
+    "hypertension": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.0974559686888454
+    },
+    "heart_disease": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.05401174168297456
+    },
+    "avg_glucose_level": {
+      "min": 55.12,
+      "max": 271.74,
+      "mean": 106.14767710371822
+    },
+    "bmi": {
+      "min": 10.3,
+      "max": 97.6,
+      "mean": 28.893236911794666
+    }
+  },
+  "histograms": {
+    "age": [
+      {
+        "label": "0–20",
+        "count": 966,
+        "positive": 2,
+        "rate": 0.002070393374741201
+      },
+      {
+        "label": "20–40",
+        "count": 1204,
+        "positive": 6,
+        "rate": 0.0049833887043189366
+      },
+      {
+        "label": "40–60",
+        "count": 1564,
+        "positive": 60,
+        "rate": 0.03836317135549872
+      },
+      {
+        "label": "60–83",
+        "count": 1376,
+        "positive": 181,
+        "rate": 0.13154069767441862
+      }
+    ],
+    "avg_glucose_level": [
+      {
+        "label": "55–90",
+        "count": 2402,
+        "positive": 88,
+        "rate": 0.03663613655287261
+      },
+      {
+        "label": "90–125",
+        "count": 1708,
+        "positive": 61,
+        "rate": 0.03571428571428571
+      },
+      {
+        "label": "125–160",
+        "count": 331,
+        "positive": 11,
+        "rate": 0.03323262839879154
+      },
+      {
+        "label": "160–195",
+        "count": 179,
+        "positive": 24,
+        "rate": 0.1340782122905028
+      },
+      {
+        "label": "195–230",
+        "count": 371,
+        "positive": 47,
+        "rate": 0.12668463611859837
+      },
+      {
+        "label": "230–272",
+        "count": 119,
+        "positive": 18,
+        "rate": 0.15126050420168066
+      }
+    ],
+    "bmi": [
+      {
+        "label": "10–20",
+        "count": 520,
+        "positive": 3,
+        "rate": 0.0057692307692307696
+      },
+      {
+        "label": "20–30",
+        "count": 2469,
+        "positive": 108,
+        "rate": 0.04374240583232078
+      },
+      {
+        "label": "30–40",
+        "count": 1506,
+        "positive": 79,
+        "rate": 0.05245683930942895
+      },
+      {
+        "label": "40–50",
+        "count": 335,
+        "positive": 18,
+        "rate": 0.05373134328358209
+      },
+      {
+        "label": "50–70",
+        "count": 75,
+        "positive": 1,
+        "rate": 0.013333333333333334
+      },
+      {
+        "label": "70–98",
+        "count": 4,
+        "positive": 0,
+        "rate": 0.0
+      }
+    ]
+  },
+  "category_counts": {
+    "gender": {
+      "Female": 2994,
+      "Male": 2115,
+      "Other": 1
+    },
+    "ever_married": {
+      "No": 1757,
+      "Yes": 3353
+    },
+    "work_type": {
+      "Govt_job": 657,
+      "Never_worked": 22,
+      "Private": 2925,
+      "Self-employed": 819,
+      "children": 687
+    },
+    "Residence_type": {
+      "Rural": 2514,
+      "Urban": 2596
+    },
+    "smoking_status": {
+      "Unknown": 1544,
+      "formerly smoked": 885,
+      "never smoked": 1892,
+      "smokes": 789
+    }
+  }
+}

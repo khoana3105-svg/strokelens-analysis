@@ -1,0 +1,9 @@
+{
+  "split": "80% development / 20% final holdout, stratified, seed=42; sort by id first",
+  "cv": "3-fold shuffled stratified CV on development only, seed=42",
+  "threshold": "For each candidate, maximize precision subject to pooled OOF recall >= 0.75; tie: highest threshold.",
+  "model": "Prefer candidates with OOF precision >= 0.10 at recall >= 0.75; maximize OOF average precision. Within 0.01 AP of best, prefer Logistic Regression, then KNN, SVM, Tree, Forest in candidate order. If none qualify, use best AP and disclose failure.",
+  "calibration": "Assess OOF Brier score and 5 quantile-bin reliability. No post-hoc calibration: only 199 development positives; scores are educational outputs, never validated personal probabilities.",
+  "holdout": "Fit winner once on all development rows; compute final predictions once. No holdout tuning. CV selection estimates are optimistic after selection.",
+  "importance": "Mean AP decrease across 3 development validation folds, 5 permutations per raw feature; never used to select model."
+}

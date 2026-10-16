@@ -1,0 +1,61 @@
+{
+  "features": [
+    "age",
+    "hypertension",
+    "heart_disease",
+    "avg_glucose_level",
+    "bmi",
+    "gender",
+    "ever_married",
+    "work_type",
+    "Residence_type",
+    "smoking_status"
+  ],
+  "categories": {
+    "gender": [
+      "Female",
+      "Male",
+      "Other"
+    ],
+    "ever_married": [
+      "No",
+      "Yes"
+    ],
+    "work_type": [
+      "Govt_job",
+      "Never_worked",
+      "Private",
+      "Self-employed",
+      "children"
+    ],
+    "Residence_type": [
+      "Rural",
+      "Urban"
+    ],
+    "smoking_status": [
+      "Unknown",
+      "formerly smoked",
+      "never smoked",
+      "smokes"
+    ]
+  },
+  "ranges": {
+    "age": [
+      0.08,
+      82
+    ],
+    "avg_glucose_level": [
+      55.12,
+      271.74
+    ],
+    "bmi": [
+      10.3,
+      97.6
+    ]
+  },
+  "units": {
+    "age": "years",
+    "bmi": "kg/m²",
+    "avg_glucose_level": "source numeric units; mg/dL convention assumed, not confirmed in source dictionary"
+  }
+}
