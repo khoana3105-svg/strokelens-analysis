@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checks": [
+    "five sections",
+    "real predictions for distinct profiles",
+    "EN/VI form and errors",
+    "language persistence",
+    "EDA controls",
+    "threshold exploration",
+    "local contributions",
+    "null BMI",
+    "invalid age",
+    "390px mobile no horizontal overflow",
+    "no browser exceptions"
+  ],
+  "screenshots": [
+    "desktop-en.png",
+    "desktop-vi.png",
+    "mobile-vi.png",
+    "mobile-simulator.png"
+  ]
+}
